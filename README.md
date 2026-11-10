@@ -56,7 +56,7 @@ Because edge weights represent tie **strength** (not distance), betweenness and 
 
 <img width="1180" height="946" alt="Rplot1" src="https://github.com/user-attachments/assets/152fd06b-4be4-4d94-9831-f0cee084db32" />
                                                         Figure 1 — Network overview.
-                                    < link src ="https://yogav28.github.io/Social-Network-Analysis-Report-Friendship-Network-60-People-"/>
+                                    <https://yogav28.github.io/Social-Network-Analysis-Report-Friendship-Network-60-People->
 
 **Table 2 — Centrality comparison (top 15 by degree).**
 
