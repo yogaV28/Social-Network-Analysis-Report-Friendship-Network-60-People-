@@ -12,7 +12,9 @@ An anonymized ego-network of 60 people (Facebook friends, family, and university
 
 ## 2. Introduction
 
-Social network analysis (SNA) studies relationships between people (vertices) and their connections (edges) using graph theory. In this project, my personal friendship network was collected from three sources — Facebook, family members, and my university (Moodle) classmates — and modelled as an undirected weighted graph G = (V, E).
+Social network analysis (SNA) studies relationships between people (vertices) and their connections (edges) using graph theory. Instead of analysing individuals in isolation, SNA focuses on the **structure of connections** — who knows whom, which groups are tightly knit, and which people act as bridges between groups. These structural questions matter in many fields: sociology (cohesion and social capital), epidemiology (how contact networks spread disease), marketing (influencers and word-of-mouth), and online platforms (friend recommendations and feed ranking).
+
+In this project, my personal friendship network was collected from three sources — Facebook, family members, and my university (Moodle) classmates — and modelled as an undirected weighted graph **G = (V, E)**, where the 60 vertices are people (anonymized by their initials) and the 336 edges are friendship relationships, each weighted by tie strength. Because the data was collected from my own point of view, the network is an **ego-network**: one central actor (ME) surrounded by everyone he is connected to.
 
 The goal is to answer four questions about the network:
 
@@ -20,6 +22,13 @@ The goal is to answer four questions about the network:
 2. Who are the most central people? (centrality)
 3. Which groups are fully interconnected? (cliques)
 4. What natural communities exist? (community detection)
+
+In addition to these four tasks, the analysis aims to:
+
+- **Compare centrality measures** (degree, betweenness, closeness, eigenvector, PageRank) and interpret what each one reveals about a person's position in the network
+- **Examine how social circles overlap** — family, university classmates, and online friends — and how strongly they are tied to each other
+- **Evaluate community detection algorithms** (Louvain, greedy modularity, edge betweenness, Infomap) by comparing their modularity scores Q
+- **Reflect on how the data-collection design** (ego-centric, single-source observation) shapes the results and what limitations it introduces
 
 The analysis was performed in R with the `igraph` package (full code in `network_analysis.R`).
 
@@ -34,19 +43,23 @@ The analysis was performed in R with the `igraph` package (full code in `network
 | Classmates (incl. 8 friends) | 24 | Moodle course roster (MGDMDiM-6) |
 | Facebook friends | 33 | Facebook friends list (top by mutual-friend count) |
 
+Facebook friends were ranked by the number of mutual friends shown on each profile, and the top 33 were kept to respect the 60-person limit of the study. Classmates were taken from the university Moodle course participants list; names underlined in green in the source material mark the 8 classmates who are also personal friends. The full dataset is stored as a single CSV file (`friendship_dataset.csv`) with six columns: `from`, `from_name`, `to`, `to_name`, `relationship`, and `weight`.
+
 **Privacy.** Every person is anonymized using the first letters of their first name and family name (e.g., A.B, J.T). Numeric suffixes resolve collisions (M.M, M.M2, M.M3).
 
-**Edge weights.** Each edge carries a relationship type (family, friend, classmate, facebook_friend) and a weight: Facebook edges are weighted by the number of mutual friends, other ties by tie strength (family = 5, friend = 3, classmate = 1).
+**Edge weights.** Each edge carries a relationship type (family, friend, classmate, facebook_friend) and a weight: Facebook edges are weighted by the number of mutual friends, other ties by tie strength (family = 5, friend = 3, classmate = 1). The graph was built in R with `igraph::graph_from_data_frame()` as an undirected weighted graph, and `simplify()` was applied to merge any duplicate edges, keeping the strongest tie.
 
 **Mathematical methods used.** Let G = (V, E) be an undirected graph with n = |V| vertices, m = |E| edges, and adjacency matrix A (a_ij = 1 if {i,j} ∈ E).
 
-- **Degree:** k_i = Σ_j a_ij; normalized degree centrality C_D(i) = k_i / (n−1)
-- **Betweenness:** C_B(v) = Σ_{s≠v≠t} σ_st(v) / σ_st, where σ_st = number of shortest paths from s to t and σ_st(v) = how many pass through v
-- **Closeness:** C_C(v) = (n−1) / Σ_{t≠v} d(v,t), where d(v,t) is the shortest-path distance
-- **Eigenvector centrality:** the principal eigenvector of A, A x = λ_max x
-- **PageRank:** PR(i) = (1−d)/n + d Σ_{j→i} PR(j)/k_j with damping d ≈ 0.85
-- **Clique:** a subset S ⊆ V where every pair of vertices is adjacent; ω(G) is the maximum clique size
-- **Modularity:** Q = (1/2m) Σ_{i,j} [ a_ij − k_i·k_j/(2m) ] · δ(c_i, c_j); communities were detected with Louvain (modularity maximization)
+- **Degree:** k_i = Σ_j a_ij; normalized degree centrality C_D(i) = k_i / (n−1) — counts a person's direct connections
+- **Betweenness:** C_B(v) = Σ_{s≠v≠t} σ_st(v) / σ_st, where σ_st = number of shortest paths from s to t and σ_st(v) = how many pass through v — measures how often a person lies on the shortest path between others (a "bridge" role)
+- **Closeness:** C_C(v) = (n−1) / Σ_{t≠v} d(v,t), where d(v,t) is the shortest-path distance — how quickly a person can reach everyone else
+- **Eigenvector centrality:** the principal eigenvector of A, A x = λ_max x — being connected to well-connected people matters, not just connection count
+- **PageRank:** PR(i) = (1−d)/n + d Σ_{j→i} PR(j)/k_j with damping d ≈ 0.85 — a random-walk refinement of eigenvector centrality
+- **Clique:** a subset S ⊆ V where every pair of vertices is adjacent; ω(G) is the maximum clique size — the largest fully interconnected group
+- **Modularity:** Q = (1/2m) Σ_{i,j} [ a_ij − k_i·k_j/(2m) ] · δ(c_i, c_j) — compares the fraction of edges inside communities against a random graph with the same degrees; Q close to 1 indicates strong community structure
+
+Community detection was performed with four algorithms: **Louvain** (multi-level modularity optimization), **greedy modularity** (Clauset–Newman–Moore), **edge betweenness** (Girvan–Newman, iteratively cutting the highest-betweenness edges), and **Infomap** (minimizing description length of random walks). Their partitions were compared by modularity Q.
 
 Because edge weights represent tie **strength** (not distance), betweenness and closeness were computed on the unweighted version of the graph.
 
