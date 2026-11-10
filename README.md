@@ -1,12 +1,12 @@
 # Social Network Analysis Report — Friendship Network (60 People)
 
-**Author:** Yoga Vignesh V · **Course:** Network Analysis (KTU) · **Tool:** R + igraph
+**Author:** Yoga Vignesh V · **Course:** Network Analysis (KTU) Lab-8· **Tool:** R + igraph
 
 ---
 
 ## 1. Abstract
 
-This report analyses an anonymized ego-network of 60 people (Facebook friends, family, and university classmates) using R and igraph. The analysis covers visualization, centrality measures, clique calculation, and community detection, revealing a star-shaped ego-network with one dense classmate clique of size 25 and three communities (modularity Q = 0.440).
+An anonymized ego-network of 60 people (Facebook friends, family, and university classmates) using R and igraph. The analysis covers visualization, centrality measures, clique calculation, and community detection, revealing a star-shaped ego-network with one dense classmate clique of size 25 and three communities (modularity Q = 0.440).
 
 ---
 
@@ -52,9 +52,12 @@ Because edge weights represent tie **strength** (not distance), betweenness and 
 
 ### 2.2 Visualizations (Results and Findings)
 
-**Figure 1 — Network overview.** The static plot shows a classic ego-network: the red ME node (YV) sits in the centre connected to everyone; a dense cluster of blue/green classmates and friends occupies one region; magenta Facebook friends radiate outward as pendant vertices; the two yellow family nodes form a small triangle with ME. An interactive force-directed version (networkD3, zoomable, colored by role) is saved as `networkInteractive.html`.
+**Network overview.** The static plot shows a classic ego-network: the red ME node (YV) sits in the centre connected to everyone; a dense cluster of blue/green classmates and friends occupies one region; magenta Facebook friends radiate outward as pendant vertices; the two yellow family nodes form a small triangle with ME. An interactive force-directed version (networkD3, zoomable, colored by role) is saved as `networkInteractive.html`.
 
-**Figure 2 — Centrality comparison (top 15 by degree).**
+<img width="1180" height="946" alt="Rplot1" src="https://github.com/user-attachments/assets/152fd06b-4be4-4d94-9831-f0cee084db32" />
+                                                        Figure 1 — Network overview.
+
+**Table 2 — Centrality comparison (top 15 by degree).**
 
 | id | role | degree | degree_norm | betweenness | closeness | eigenvector | pagerank |
 |---|---|---|---|---|---|---|---|
@@ -69,7 +72,15 @@ Because edge weights represent tie **strength** (not distance), betweenness and 
 | J.T | friend | 31 | 0.5254 | 0 | 0.01064 | 1.0000 | 0.02254 |
 | K.B | classmate | 24 | 0.4068 | 0 | 0.01064 | 0.7477 | 0.01469 |
 
-**Figure 3 — Communities (Louvain, Q = 0.440).** Three communities were detected: (1) ME together with the Facebook friends, (2) the family pair, and (3) the dense classmate/friend cluster.
+<img width="1180" height="946" alt="plot3" src="https://github.com/user-attachments/assets/c6b9c31f-35b7-4f38-9f4e-b2fe7b3899ef" />
+Figure 2 - Centrality comparison plot
+
+
+**Communities (Louvain, Q = 0.440).** Three communities were detected: (1) ME together with the Facebook friends, (2) the family pair, and (3) the dense classmate/friend cluster.
+
+<img width="1180" height="946" alt="Rplot-2" src="https://github.com/user-attachments/assets/77071b01-1b93-421c-80c1-03b84390f8d2" />
+
+Figure 3 — Communities (Louvain, Q = 0.440)
 
 **Cliques.**
 
