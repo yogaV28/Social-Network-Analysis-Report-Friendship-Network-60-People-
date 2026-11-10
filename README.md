@@ -52,7 +52,7 @@ Because edge weights represent tie **strength** (not distance), betweenness and 
 
 ### 2.2 Visualizations (Results and Findings)
 
-**Network overview.** The static plot shows a classic ego-network: the red ME node (YV) sits in the centre connected to everyone; a dense cluster of blue/green classmates and friends occupies one region; magenta Facebook friends radiate outward as pendant vertices; the two yellow family nodes form a small triangle with ME. An interactive force-directed version (networkD3, zoomable, colored by role) is saved as `networkInteractive.html`.
+**Network overview.** The static plot shows a classic ego-network: the red ME node (YV) sits in the centre connected to everyone; a dense cluster of blue/green classmates and friends occupies one region; magenta Facebook friends radiate outward as pendant vertices; the two yellow family nodes form a small triangle with ME. An interactive force-directed version (networkD3, zoomable, colored by role) is available online — see **Interactive network** below.
 
 <img width="1180" height="946" alt="Rplot1" src="https://github.com/user-attachments/assets/152fd06b-4be4-4d94-9831-f0cee084db32" />
                                                         Figure 1 — Network overview.
@@ -81,6 +81,13 @@ Figure 2 - Centrality comparison plot
 <img width="1180" height="946" alt="Rplot-2" src="https://github.com/user-attachments/assets/77071b01-1b93-421c-80c1-03b84390f8d2" />
 
 Figure 3 — Communities (Louvain, Q = 0.440)
+
+**Interactive network (networkD3).** The network is also available as an interactive, zoomable force-directed graph — node size scales with degree, link width with tie weight, and colors show each person's role. It runs directly in the browser:
+
+- **[Open the interactive network](https://yogaV28.github.io/Social-Network-Analysis-Report-Friendship-Network-60-People-/networkInteractive.html)** (GitHub Pages)
+- Fallback: [HTML Preview](https://htmlpreview.github.io/?https://github.com/yogaV28/Social-Network-Analysis-Report-Friendship-Network-60-People-/blob/main/networkInteractive.html) if Pages is not yet enabled
+
+The source file is [`networkInteractive.html`](networkInteractive.html), generated in R with `networkD3::forceNetwork()` (see `network_analysis.R`, section 4a2).
 
 **Cliques.**
 
