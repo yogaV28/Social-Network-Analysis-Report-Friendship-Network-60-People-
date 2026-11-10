@@ -1,0 +1,365 @@
+from,from_name,to,to_name,relationship,weight
+YV,Yoga Vignesh (self),V.R,Venkatesh Subramania Rao,family,5
+YV,Yoga Vignesh (self),S.,Sudhavenkat,family,5
+YV,Yoga Vignesh (self),B.B,Bilawal Bashir,friend,3
+YV,Yoga Vignesh (self),K.B,Kristupas Berkmanas,classmate,1
+YV,Yoga Vignesh (self),A.B,Anis Boudaren,friend,3
+YV,Yoga Vignesh (self),D.D,Dovydas Dailidavičius,classmate,1
+YV,Yoga Vignesh (self),Y.D,Yashwanth Devandla,friend,3
+YV,Yoga Vignesh (self),H.E,Henrik Elie El-Khouri,classmate,1
+YV,Yoga Vignesh (self),G.J,Goda Jančiūnaitė,friend,3
+YV,Yoga Vignesh (self),N.J,Nalaka Sampath Jayasinghe,classmate,1
+YV,Yoga Vignesh (self),A.J,Andrius Jokšas,classmate,1
+YV,Yoga Vignesh (self),R.K,Rohith Reddy Karra,classmate,1
+YV,Yoga Vignesh (self),U.K,Ulku Ece Kuscu,classmate,1
+YV,Yoga Vignesh (self),M.M,Mervine Mbuyi Muganguzi,classmate,1
+YV,Yoga Vignesh (self),J.M,Jale Mursalli,classmate,1
+YV,Yoga Vignesh (self),M.M2,Mahammad Mustafa,friend,3
+YV,Yoga Vignesh (self),M.M3,Mariam Mutwingima,classmate,1
+YV,Yoga Vignesh (self),S.R,Siddharth Nagalingam Rejeswari,classmate,1
+YV,Yoga Vignesh (self),S.N,Saikumar Nasigar,friend,3
+YV,Yoga Vignesh (self),G.N,Gabriela Novicka,classmate,1
+YV,Yoga Vignesh (self),E.O,Eugene Ehidiamhen Okogun,friend,3
+YV,Yoga Vignesh (self),M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+YV,Yoga Vignesh (self),S.R2,Simona Ragalinskaitė,classmate,1
+YV,Yoga Vignesh (self),E.R,Eimantas Raštutis,classmate,1
+YV,Yoga Vignesh (self),D.R,Daniil Romanenko,classmate,1
+YV,Yoga Vignesh (self),J.T,Joel John Thomas,friend,3
+YV,Yoga Vignesh (self),A.C,Akash Chowdhury,facebook_friend,24
+YV,Yoga Vignesh (self),V.D,Vignesh D,facebook_friend,20
+YV,Yoga Vignesh (self),S.2,Surya,facebook_friend,17
+YV,Yoga Vignesh (self),S.P,Subash Pazhani,facebook_friend,16
+YV,Yoga Vignesh (self),S.3,Srisiva,facebook_friend,16
+YV,Yoga Vignesh (self),J.R,Jayanth Rajkumar,facebook_friend,16
+YV,Yoga Vignesh (self),P.T,Prabu T,facebook_friend,15
+YV,Yoga Vignesh (self),M.R2,Mughesh Kumar N R,facebook_friend,15
+YV,Yoga Vignesh (self),S.H,Sri Hari,facebook_friend,15
+YV,Yoga Vignesh (self),H.S,Harith Kumar Adhithya S,facebook_friend,14
+YV,Yoga Vignesh (self),S.4,Sanjay,facebook_friend,13
+YV,Yoga Vignesh (self),A.K,Arun Kumar,facebook_friend,13
+YV,Yoga Vignesh (self),V.S,Vivin Shelly,facebook_friend,13
+YV,Yoga Vignesh (self),E.W,Edwin T Wilson,facebook_friend,12
+YV,Yoga Vignesh (self),B.G,Barun G,facebook_friend,12
+YV,Yoga Vignesh (self),S.E,Shashwath EP,facebook_friend,9
+YV,Yoga Vignesh (self),P.R,Prabhu Sivaji Rangsubhe,facebook_friend,9
+YV,Yoga Vignesh (self),K.K,Kamal Kannan,facebook_friend,9
+YV,Yoga Vignesh (self),R.B,Rajesh Bojan,facebook_friend,9
+YV,Yoga Vignesh (self),S.G,Satheesh Gobi,facebook_friend,9
+YV,Yoga Vignesh (self),L.,Loga,facebook_friend,8
+YV,Yoga Vignesh (self),J.I,Jeyakartick India,facebook_friend,8
+YV,Yoga Vignesh (self),S.G2,Salamon G,facebook_friend,8
+YV,Yoga Vignesh (self),R.V,R G Vedhessh,facebook_friend,8
+YV,Yoga Vignesh (self),S.K,Sandeep Kari,facebook_friend,8
+YV,Yoga Vignesh (self),M.K,Melvin M Kurian,facebook_friend,8
+YV,Yoga Vignesh (self),L.V,Loges Varan,facebook_friend,8
+YV,Yoga Vignesh (self),D.D2,Dhanvanth Dhanu,facebook_friend,8
+YV,Yoga Vignesh (self),E.P,EG Pradeep,facebook_friend,7
+YV,Yoga Vignesh (self),V.S2,Vishnupriyan S,facebook_friend,7
+YV,Yoga Vignesh (self),A.A,Azhaar Ahamed,facebook_friend,7
+YV,Yoga Vignesh (self),A.K2,Akshay Keerthi,facebook_friend,7
+YV,Yoga Vignesh (self),I.,Ilayaraja,facebook_friend,7
+V.R,Venkatesh Subramania Rao,S.,Sudhavenkat,family,5
+B.B,Bilawal Bashir,K.B,Kristupas Berkmanas,classmate,1
+B.B,Bilawal Bashir,A.B,Anis Boudaren,classmate,1
+B.B,Bilawal Bashir,D.D,Dovydas Dailidavičius,classmate,1
+B.B,Bilawal Bashir,Y.D,Yashwanth Devandla,classmate,1
+B.B,Bilawal Bashir,H.E,Henrik Elie El-Khouri,classmate,1
+B.B,Bilawal Bashir,G.J,Goda Jančiūnaitė,classmate,1
+B.B,Bilawal Bashir,N.J,Nalaka Sampath Jayasinghe,classmate,1
+B.B,Bilawal Bashir,A.J,Andrius Jokšas,classmate,1
+B.B,Bilawal Bashir,R.K,Rohith Reddy Karra,classmate,1
+B.B,Bilawal Bashir,U.K,Ulku Ece Kuscu,classmate,1
+B.B,Bilawal Bashir,M.M,Mervine Mbuyi Muganguzi,classmate,1
+B.B,Bilawal Bashir,J.M,Jale Mursalli,classmate,1
+B.B,Bilawal Bashir,M.M2,Mahammad Mustafa,classmate,1
+B.B,Bilawal Bashir,M.M3,Mariam Mutwingima,classmate,1
+B.B,Bilawal Bashir,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+B.B,Bilawal Bashir,S.N,Saikumar Nasigar,classmate,1
+B.B,Bilawal Bashir,G.N,Gabriela Novicka,classmate,1
+B.B,Bilawal Bashir,E.O,Eugene Ehidiamhen Okogun,classmate,1
+B.B,Bilawal Bashir,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+B.B,Bilawal Bashir,S.R2,Simona Ragalinskaitė,classmate,1
+B.B,Bilawal Bashir,E.R,Eimantas Raštutis,classmate,1
+B.B,Bilawal Bashir,D.R,Daniil Romanenko,classmate,1
+B.B,Bilawal Bashir,J.T,Joel John Thomas,classmate,1
+K.B,Kristupas Berkmanas,A.B,Anis Boudaren,classmate,1
+K.B,Kristupas Berkmanas,D.D,Dovydas Dailidavičius,classmate,1
+K.B,Kristupas Berkmanas,Y.D,Yashwanth Devandla,classmate,1
+K.B,Kristupas Berkmanas,H.E,Henrik Elie El-Khouri,classmate,1
+K.B,Kristupas Berkmanas,G.J,Goda Jančiūnaitė,classmate,1
+K.B,Kristupas Berkmanas,N.J,Nalaka Sampath Jayasinghe,classmate,1
+K.B,Kristupas Berkmanas,A.J,Andrius Jokšas,classmate,1
+K.B,Kristupas Berkmanas,R.K,Rohith Reddy Karra,classmate,1
+K.B,Kristupas Berkmanas,U.K,Ulku Ece Kuscu,classmate,1
+K.B,Kristupas Berkmanas,M.M,Mervine Mbuyi Muganguzi,classmate,1
+K.B,Kristupas Berkmanas,J.M,Jale Mursalli,classmate,1
+K.B,Kristupas Berkmanas,M.M2,Mahammad Mustafa,classmate,1
+K.B,Kristupas Berkmanas,M.M3,Mariam Mutwingima,classmate,1
+K.B,Kristupas Berkmanas,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+K.B,Kristupas Berkmanas,S.N,Saikumar Nasigar,classmate,1
+K.B,Kristupas Berkmanas,G.N,Gabriela Novicka,classmate,1
+K.B,Kristupas Berkmanas,E.O,Eugene Ehidiamhen Okogun,classmate,1
+K.B,Kristupas Berkmanas,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+K.B,Kristupas Berkmanas,S.R2,Simona Ragalinskaitė,classmate,1
+K.B,Kristupas Berkmanas,E.R,Eimantas Raštutis,classmate,1
+K.B,Kristupas Berkmanas,D.R,Daniil Romanenko,classmate,1
+K.B,Kristupas Berkmanas,J.T,Joel John Thomas,classmate,1
+A.B,Anis Boudaren,D.D,Dovydas Dailidavičius,classmate,1
+A.B,Anis Boudaren,Y.D,Yashwanth Devandla,classmate,1
+A.B,Anis Boudaren,H.E,Henrik Elie El-Khouri,classmate,1
+A.B,Anis Boudaren,G.J,Goda Jančiūnaitė,classmate,1
+A.B,Anis Boudaren,N.J,Nalaka Sampath Jayasinghe,classmate,1
+A.B,Anis Boudaren,A.J,Andrius Jokšas,classmate,1
+A.B,Anis Boudaren,R.K,Rohith Reddy Karra,classmate,1
+A.B,Anis Boudaren,U.K,Ulku Ece Kuscu,classmate,1
+A.B,Anis Boudaren,M.M,Mervine Mbuyi Muganguzi,classmate,1
+A.B,Anis Boudaren,J.M,Jale Mursalli,classmate,1
+A.B,Anis Boudaren,M.M2,Mahammad Mustafa,classmate,1
+A.B,Anis Boudaren,M.M3,Mariam Mutwingima,classmate,1
+A.B,Anis Boudaren,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+A.B,Anis Boudaren,S.N,Saikumar Nasigar,classmate,1
+A.B,Anis Boudaren,G.N,Gabriela Novicka,classmate,1
+A.B,Anis Boudaren,E.O,Eugene Ehidiamhen Okogun,classmate,1
+A.B,Anis Boudaren,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+A.B,Anis Boudaren,S.R2,Simona Ragalinskaitė,classmate,1
+A.B,Anis Boudaren,E.R,Eimantas Raštutis,classmate,1
+A.B,Anis Boudaren,D.R,Daniil Romanenko,classmate,1
+A.B,Anis Boudaren,J.T,Joel John Thomas,classmate,1
+D.D,Dovydas Dailidavičius,Y.D,Yashwanth Devandla,classmate,1
+D.D,Dovydas Dailidavičius,H.E,Henrik Elie El-Khouri,classmate,1
+D.D,Dovydas Dailidavičius,G.J,Goda Jančiūnaitė,classmate,1
+D.D,Dovydas Dailidavičius,N.J,Nalaka Sampath Jayasinghe,classmate,1
+D.D,Dovydas Dailidavičius,A.J,Andrius Jokšas,classmate,1
+D.D,Dovydas Dailidavičius,R.K,Rohith Reddy Karra,classmate,1
+D.D,Dovydas Dailidavičius,U.K,Ulku Ece Kuscu,classmate,1
+D.D,Dovydas Dailidavičius,M.M,Mervine Mbuyi Muganguzi,classmate,1
+D.D,Dovydas Dailidavičius,J.M,Jale Mursalli,classmate,1
+D.D,Dovydas Dailidavičius,M.M2,Mahammad Mustafa,classmate,1
+D.D,Dovydas Dailidavičius,M.M3,Mariam Mutwingima,classmate,1
+D.D,Dovydas Dailidavičius,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+D.D,Dovydas Dailidavičius,S.N,Saikumar Nasigar,classmate,1
+D.D,Dovydas Dailidavičius,G.N,Gabriela Novicka,classmate,1
+D.D,Dovydas Dailidavičius,E.O,Eugene Ehidiamhen Okogun,classmate,1
+D.D,Dovydas Dailidavičius,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+D.D,Dovydas Dailidavičius,S.R2,Simona Ragalinskaitė,classmate,1
+D.D,Dovydas Dailidavičius,E.R,Eimantas Raštutis,classmate,1
+D.D,Dovydas Dailidavičius,D.R,Daniil Romanenko,classmate,1
+D.D,Dovydas Dailidavičius,J.T,Joel John Thomas,classmate,1
+Y.D,Yashwanth Devandla,H.E,Henrik Elie El-Khouri,classmate,1
+Y.D,Yashwanth Devandla,G.J,Goda Jančiūnaitė,classmate,1
+Y.D,Yashwanth Devandla,N.J,Nalaka Sampath Jayasinghe,classmate,1
+Y.D,Yashwanth Devandla,A.J,Andrius Jokšas,classmate,1
+Y.D,Yashwanth Devandla,R.K,Rohith Reddy Karra,classmate,1
+Y.D,Yashwanth Devandla,U.K,Ulku Ece Kuscu,classmate,1
+Y.D,Yashwanth Devandla,M.M,Mervine Mbuyi Muganguzi,classmate,1
+Y.D,Yashwanth Devandla,J.M,Jale Mursalli,classmate,1
+Y.D,Yashwanth Devandla,M.M2,Mahammad Mustafa,classmate,1
+Y.D,Yashwanth Devandla,M.M3,Mariam Mutwingima,classmate,1
+Y.D,Yashwanth Devandla,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+Y.D,Yashwanth Devandla,S.N,Saikumar Nasigar,classmate,1
+Y.D,Yashwanth Devandla,G.N,Gabriela Novicka,classmate,1
+Y.D,Yashwanth Devandla,E.O,Eugene Ehidiamhen Okogun,classmate,1
+Y.D,Yashwanth Devandla,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+Y.D,Yashwanth Devandla,S.R2,Simona Ragalinskaitė,classmate,1
+Y.D,Yashwanth Devandla,E.R,Eimantas Raštutis,classmate,1
+Y.D,Yashwanth Devandla,D.R,Daniil Romanenko,classmate,1
+Y.D,Yashwanth Devandla,J.T,Joel John Thomas,classmate,1
+H.E,Henrik Elie El-Khouri,G.J,Goda Jančiūnaitė,classmate,1
+H.E,Henrik Elie El-Khouri,N.J,Nalaka Sampath Jayasinghe,classmate,1
+H.E,Henrik Elie El-Khouri,A.J,Andrius Jokšas,classmate,1
+H.E,Henrik Elie El-Khouri,R.K,Rohith Reddy Karra,classmate,1
+H.E,Henrik Elie El-Khouri,U.K,Ulku Ece Kuscu,classmate,1
+H.E,Henrik Elie El-Khouri,M.M,Mervine Mbuyi Muganguzi,classmate,1
+H.E,Henrik Elie El-Khouri,J.M,Jale Mursalli,classmate,1
+H.E,Henrik Elie El-Khouri,M.M2,Mahammad Mustafa,classmate,1
+H.E,Henrik Elie El-Khouri,M.M3,Mariam Mutwingima,classmate,1
+H.E,Henrik Elie El-Khouri,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+H.E,Henrik Elie El-Khouri,S.N,Saikumar Nasigar,classmate,1
+H.E,Henrik Elie El-Khouri,G.N,Gabriela Novicka,classmate,1
+H.E,Henrik Elie El-Khouri,E.O,Eugene Ehidiamhen Okogun,classmate,1
+H.E,Henrik Elie El-Khouri,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+H.E,Henrik Elie El-Khouri,S.R2,Simona Ragalinskaitė,classmate,1
+H.E,Henrik Elie El-Khouri,E.R,Eimantas Raštutis,classmate,1
+H.E,Henrik Elie El-Khouri,D.R,Daniil Romanenko,classmate,1
+H.E,Henrik Elie El-Khouri,J.T,Joel John Thomas,classmate,1
+G.J,Goda Jančiūnaitė,N.J,Nalaka Sampath Jayasinghe,classmate,1
+G.J,Goda Jančiūnaitė,A.J,Andrius Jokšas,classmate,1
+G.J,Goda Jančiūnaitė,R.K,Rohith Reddy Karra,classmate,1
+G.J,Goda Jančiūnaitė,U.K,Ulku Ece Kuscu,classmate,1
+G.J,Goda Jančiūnaitė,M.M,Mervine Mbuyi Muganguzi,classmate,1
+G.J,Goda Jančiūnaitė,J.M,Jale Mursalli,classmate,1
+G.J,Goda Jančiūnaitė,M.M2,Mahammad Mustafa,classmate,1
+G.J,Goda Jančiūnaitė,M.M3,Mariam Mutwingima,classmate,1
+G.J,Goda Jančiūnaitė,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+G.J,Goda Jančiūnaitė,S.N,Saikumar Nasigar,classmate,1
+G.J,Goda Jančiūnaitė,G.N,Gabriela Novicka,classmate,1
+G.J,Goda Jančiūnaitė,E.O,Eugene Ehidiamhen Okogun,classmate,1
+G.J,Goda Jančiūnaitė,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+G.J,Goda Jančiūnaitė,S.R2,Simona Ragalinskaitė,classmate,1
+G.J,Goda Jančiūnaitė,E.R,Eimantas Raštutis,classmate,1
+G.J,Goda Jančiūnaitė,D.R,Daniil Romanenko,classmate,1
+G.J,Goda Jančiūnaitė,J.T,Joel John Thomas,classmate,1
+N.J,Nalaka Sampath Jayasinghe,A.J,Andrius Jokšas,classmate,1
+N.J,Nalaka Sampath Jayasinghe,R.K,Rohith Reddy Karra,classmate,1
+N.J,Nalaka Sampath Jayasinghe,U.K,Ulku Ece Kuscu,classmate,1
+N.J,Nalaka Sampath Jayasinghe,M.M,Mervine Mbuyi Muganguzi,classmate,1
+N.J,Nalaka Sampath Jayasinghe,J.M,Jale Mursalli,classmate,1
+N.J,Nalaka Sampath Jayasinghe,M.M2,Mahammad Mustafa,classmate,1
+N.J,Nalaka Sampath Jayasinghe,M.M3,Mariam Mutwingima,classmate,1
+N.J,Nalaka Sampath Jayasinghe,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+N.J,Nalaka Sampath Jayasinghe,S.N,Saikumar Nasigar,classmate,1
+N.J,Nalaka Sampath Jayasinghe,G.N,Gabriela Novicka,classmate,1
+N.J,Nalaka Sampath Jayasinghe,E.O,Eugene Ehidiamhen Okogun,classmate,1
+N.J,Nalaka Sampath Jayasinghe,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+N.J,Nalaka Sampath Jayasinghe,S.R2,Simona Ragalinskaitė,classmate,1
+N.J,Nalaka Sampath Jayasinghe,E.R,Eimantas Raštutis,classmate,1
+N.J,Nalaka Sampath Jayasinghe,D.R,Daniil Romanenko,classmate,1
+N.J,Nalaka Sampath Jayasinghe,J.T,Joel John Thomas,classmate,1
+A.J,Andrius Jokšas,R.K,Rohith Reddy Karra,classmate,1
+A.J,Andrius Jokšas,U.K,Ulku Ece Kuscu,classmate,1
+A.J,Andrius Jokšas,M.M,Mervine Mbuyi Muganguzi,classmate,1
+A.J,Andrius Jokšas,J.M,Jale Mursalli,classmate,1
+A.J,Andrius Jokšas,M.M2,Mahammad Mustafa,classmate,1
+A.J,Andrius Jokšas,M.M3,Mariam Mutwingima,classmate,1
+A.J,Andrius Jokšas,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+A.J,Andrius Jokšas,S.N,Saikumar Nasigar,classmate,1
+A.J,Andrius Jokšas,G.N,Gabriela Novicka,classmate,1
+A.J,Andrius Jokšas,E.O,Eugene Ehidiamhen Okogun,classmate,1
+A.J,Andrius Jokšas,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+A.J,Andrius Jokšas,S.R2,Simona Ragalinskaitė,classmate,1
+A.J,Andrius Jokšas,E.R,Eimantas Raštutis,classmate,1
+A.J,Andrius Jokšas,D.R,Daniil Romanenko,classmate,1
+A.J,Andrius Jokšas,J.T,Joel John Thomas,classmate,1
+R.K,Rohith Reddy Karra,U.K,Ulku Ece Kuscu,classmate,1
+R.K,Rohith Reddy Karra,M.M,Mervine Mbuyi Muganguzi,classmate,1
+R.K,Rohith Reddy Karra,J.M,Jale Mursalli,classmate,1
+R.K,Rohith Reddy Karra,M.M2,Mahammad Mustafa,classmate,1
+R.K,Rohith Reddy Karra,M.M3,Mariam Mutwingima,classmate,1
+R.K,Rohith Reddy Karra,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+R.K,Rohith Reddy Karra,S.N,Saikumar Nasigar,classmate,1
+R.K,Rohith Reddy Karra,G.N,Gabriela Novicka,classmate,1
+R.K,Rohith Reddy Karra,E.O,Eugene Ehidiamhen Okogun,classmate,1
+R.K,Rohith Reddy Karra,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+R.K,Rohith Reddy Karra,S.R2,Simona Ragalinskaitė,classmate,1
+R.K,Rohith Reddy Karra,E.R,Eimantas Raštutis,classmate,1
+R.K,Rohith Reddy Karra,D.R,Daniil Romanenko,classmate,1
+R.K,Rohith Reddy Karra,J.T,Joel John Thomas,classmate,1
+U.K,Ulku Ece Kuscu,M.M,Mervine Mbuyi Muganguzi,classmate,1
+U.K,Ulku Ece Kuscu,J.M,Jale Mursalli,classmate,1
+U.K,Ulku Ece Kuscu,M.M2,Mahammad Mustafa,classmate,1
+U.K,Ulku Ece Kuscu,M.M3,Mariam Mutwingima,classmate,1
+U.K,Ulku Ece Kuscu,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+U.K,Ulku Ece Kuscu,S.N,Saikumar Nasigar,classmate,1
+U.K,Ulku Ece Kuscu,G.N,Gabriela Novicka,classmate,1
+U.K,Ulku Ece Kuscu,E.O,Eugene Ehidiamhen Okogun,classmate,1
+U.K,Ulku Ece Kuscu,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+U.K,Ulku Ece Kuscu,S.R2,Simona Ragalinskaitė,classmate,1
+U.K,Ulku Ece Kuscu,E.R,Eimantas Raštutis,classmate,1
+U.K,Ulku Ece Kuscu,D.R,Daniil Romanenko,classmate,1
+U.K,Ulku Ece Kuscu,J.T,Joel John Thomas,classmate,1
+M.M,Mervine Mbuyi Muganguzi,J.M,Jale Mursalli,classmate,1
+M.M,Mervine Mbuyi Muganguzi,M.M2,Mahammad Mustafa,classmate,1
+M.M,Mervine Mbuyi Muganguzi,M.M3,Mariam Mutwingima,classmate,1
+M.M,Mervine Mbuyi Muganguzi,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+M.M,Mervine Mbuyi Muganguzi,S.N,Saikumar Nasigar,classmate,1
+M.M,Mervine Mbuyi Muganguzi,G.N,Gabriela Novicka,classmate,1
+M.M,Mervine Mbuyi Muganguzi,E.O,Eugene Ehidiamhen Okogun,classmate,1
+M.M,Mervine Mbuyi Muganguzi,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+M.M,Mervine Mbuyi Muganguzi,S.R2,Simona Ragalinskaitė,classmate,1
+M.M,Mervine Mbuyi Muganguzi,E.R,Eimantas Raštutis,classmate,1
+M.M,Mervine Mbuyi Muganguzi,D.R,Daniil Romanenko,classmate,1
+M.M,Mervine Mbuyi Muganguzi,J.T,Joel John Thomas,classmate,1
+J.M,Jale Mursalli,M.M2,Mahammad Mustafa,classmate,1
+J.M,Jale Mursalli,M.M3,Mariam Mutwingima,classmate,1
+J.M,Jale Mursalli,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+J.M,Jale Mursalli,S.N,Saikumar Nasigar,classmate,1
+J.M,Jale Mursalli,G.N,Gabriela Novicka,classmate,1
+J.M,Jale Mursalli,E.O,Eugene Ehidiamhen Okogun,classmate,1
+J.M,Jale Mursalli,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+J.M,Jale Mursalli,S.R2,Simona Ragalinskaitė,classmate,1
+J.M,Jale Mursalli,E.R,Eimantas Raštutis,classmate,1
+J.M,Jale Mursalli,D.R,Daniil Romanenko,classmate,1
+J.M,Jale Mursalli,J.T,Joel John Thomas,classmate,1
+M.M2,Mahammad Mustafa,M.M3,Mariam Mutwingima,classmate,1
+M.M2,Mahammad Mustafa,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+M.M2,Mahammad Mustafa,S.N,Saikumar Nasigar,classmate,1
+M.M2,Mahammad Mustafa,G.N,Gabriela Novicka,classmate,1
+M.M2,Mahammad Mustafa,E.O,Eugene Ehidiamhen Okogun,classmate,1
+M.M2,Mahammad Mustafa,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+M.M2,Mahammad Mustafa,S.R2,Simona Ragalinskaitė,classmate,1
+M.M2,Mahammad Mustafa,E.R,Eimantas Raštutis,classmate,1
+M.M2,Mahammad Mustafa,D.R,Daniil Romanenko,classmate,1
+M.M2,Mahammad Mustafa,J.T,Joel John Thomas,classmate,1
+M.M3,Mariam Mutwingima,S.R,Siddharth Nagalingam Rejeswari,classmate,1
+M.M3,Mariam Mutwingima,S.N,Saikumar Nasigar,classmate,1
+M.M3,Mariam Mutwingima,G.N,Gabriela Novicka,classmate,1
+M.M3,Mariam Mutwingima,E.O,Eugene Ehidiamhen Okogun,classmate,1
+M.M3,Mariam Mutwingima,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+M.M3,Mariam Mutwingima,S.R2,Simona Ragalinskaitė,classmate,1
+M.M3,Mariam Mutwingima,E.R,Eimantas Raštutis,classmate,1
+M.M3,Mariam Mutwingima,D.R,Daniil Romanenko,classmate,1
+M.M3,Mariam Mutwingima,J.T,Joel John Thomas,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,S.N,Saikumar Nasigar,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,G.N,Gabriela Novicka,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,E.O,Eugene Ehidiamhen Okogun,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,S.R2,Simona Ragalinskaitė,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,E.R,Eimantas Raštutis,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,D.R,Daniil Romanenko,classmate,1
+S.R,Siddharth Nagalingam Rejeswari,J.T,Joel John Thomas,classmate,1
+S.N,Saikumar Nasigar,G.N,Gabriela Novicka,classmate,1
+S.N,Saikumar Nasigar,E.O,Eugene Ehidiamhen Okogun,classmate,1
+S.N,Saikumar Nasigar,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+S.N,Saikumar Nasigar,S.R2,Simona Ragalinskaitė,classmate,1
+S.N,Saikumar Nasigar,E.R,Eimantas Raštutis,classmate,1
+S.N,Saikumar Nasigar,D.R,Daniil Romanenko,classmate,1
+S.N,Saikumar Nasigar,J.T,Joel John Thomas,classmate,1
+G.N,Gabriela Novicka,E.O,Eugene Ehidiamhen Okogun,classmate,1
+G.N,Gabriela Novicka,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+G.N,Gabriela Novicka,S.R2,Simona Ragalinskaitė,classmate,1
+G.N,Gabriela Novicka,E.R,Eimantas Raštutis,classmate,1
+G.N,Gabriela Novicka,D.R,Daniil Romanenko,classmate,1
+G.N,Gabriela Novicka,J.T,Joel John Thomas,classmate,1
+E.O,Eugene Ehidiamhen Okogun,M.R,Mohamed Osama Mahmoud Rabie,classmate,1
+E.O,Eugene Ehidiamhen Okogun,S.R2,Simona Ragalinskaitė,classmate,1
+E.O,Eugene Ehidiamhen Okogun,E.R,Eimantas Raštutis,classmate,1
+E.O,Eugene Ehidiamhen Okogun,D.R,Daniil Romanenko,classmate,1
+E.O,Eugene Ehidiamhen Okogun,J.T,Joel John Thomas,classmate,1
+M.R,Mohamed Osama Mahmoud Rabie,S.R2,Simona Ragalinskaitė,classmate,1
+M.R,Mohamed Osama Mahmoud Rabie,E.R,Eimantas Raštutis,classmate,1
+M.R,Mohamed Osama Mahmoud Rabie,D.R,Daniil Romanenko,classmate,1
+M.R,Mohamed Osama Mahmoud Rabie,J.T,Joel John Thomas,classmate,1
+S.R2,Simona Ragalinskaitė,E.R,Eimantas Raštutis,classmate,1
+S.R2,Simona Ragalinskaitė,D.R,Daniil Romanenko,classmate,1
+S.R2,Simona Ragalinskaitė,J.T,Joel John Thomas,classmate,1
+E.R,Eimantas Raštutis,D.R,Daniil Romanenko,classmate,1
+E.R,Eimantas Raštutis,J.T,Joel John Thomas,classmate,1
+D.R,Daniil Romanenko,J.T,Joel John Thomas,classmate,1
+B.B,Bilawal Bashir,A.B,Anis Boudaren,friend,2
+B.B,Bilawal Bashir,Y.D,Yashwanth Devandla,friend,2
+B.B,Bilawal Bashir,G.J,Goda Jančiūnaitė,friend,2
+B.B,Bilawal Bashir,M.M2,Mahammad Mustafa,friend,2
+B.B,Bilawal Bashir,S.N,Saikumar Nasigar,friend,2
+B.B,Bilawal Bashir,E.O,Eugene Ehidiamhen Okogun,friend,2
+B.B,Bilawal Bashir,J.T,Joel John Thomas,friend,2
+A.B,Anis Boudaren,Y.D,Yashwanth Devandla,friend,2
+A.B,Anis Boudaren,G.J,Goda Jančiūnaitė,friend,2
+A.B,Anis Boudaren,M.M2,Mahammad Mustafa,friend,2
+A.B,Anis Boudaren,S.N,Saikumar Nasigar,friend,2
+A.B,Anis Boudaren,E.O,Eugene Ehidiamhen Okogun,friend,2
+A.B,Anis Boudaren,J.T,Joel John Thomas,friend,2
+Y.D,Yashwanth Devandla,G.J,Goda Jančiūnaitė,friend,2
+Y.D,Yashwanth Devandla,M.M2,Mahammad Mustafa,friend,2
+Y.D,Yashwanth Devandla,S.N,Saikumar Nasigar,friend,2
+Y.D,Yashwanth Devandla,E.O,Eugene Ehidiamhen Okogun,friend,2
+Y.D,Yashwanth Devandla,J.T,Joel John Thomas,friend,2
+G.J,Goda Jančiūnaitė,M.M2,Mahammad Mustafa,friend,2
+G.J,Goda Jančiūnaitė,S.N,Saikumar Nasigar,friend,2
+G.J,Goda Jančiūnaitė,E.O,Eugene Ehidiamhen Okogun,friend,2
+G.J,Goda Jančiūnaitė,J.T,Joel John Thomas,friend,2
+M.M2,Mahammad Mustafa,S.N,Saikumar Nasigar,friend,2
+M.M2,Mahammad Mustafa,E.O,Eugene Ehidiamhen Okogun,friend,2
+M.M2,Mahammad Mustafa,J.T,Joel John Thomas,friend,2
+S.N,Saikumar Nasigar,E.O,Eugene Ehidiamhen Okogun,friend,2
+S.N,Saikumar Nasigar,J.T,Joel John Thomas,friend,2
+E.O,Eugene Ehidiamhen Okogun,J.T,Joel John Thomas,friend,2
